@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".History" >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayoutP"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:theme="@style/AppTheme"
+        android:background="@drawable/header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.000">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarH"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/header"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="2dp" >
+
+            <ImageView
+                android:id="@+id/arrow_backH"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/arrow_back"
+                android:layout_gravity="center_vertical|start"
+                android:contentDescription="@string/content" />
+
+            <TextView
+                android:id="@+id/textA"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/your_report"
+                android:textColor="#000000"
+                android:textSize="19sp"
+                android:layout_marginStart="20dp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayoutP"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/no_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
+        android:text="@string/no_history"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/card1"
+        android:visibility="gone" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

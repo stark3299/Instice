@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tool:context=".Details">
+
+    <TextView
+        android:id="@+id/namef"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center|start"
+        android:text="@string/namef"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status" />
+
+    <ImageView
+        android:id="@+id/imagef"
+        android:layout_width="120dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/namef1"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status" />
+
+    <TextView
+        android:id="@+id/emailf"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center|start"
+        android:text="@string/emailf"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namef" />
+
+    <TextView
+        android:id="@+id/mobilef"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center|start"
+        android:text="@string/mobilef"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailf" />
+
+    <TextView
+        android:id="@+id/namef1"
+        android:layout_width="65dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/namefa"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="12sp"
+        android:typeface="serif"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/namef"
+        app:layout_constraintTop_toBottomOf="@+id/status" />
+
+    <TextView
+        android:id="@+id/emailf1"
+        android:layout_width="65dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/emailfa"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="12sp"
+        android:typeface="serif"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/emailf"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/emailf"
+        app:layout_constraintTop_toBottomOf="@+id/namef1" />
+
+    <TextView
+        android:id="@+id/mobilef1"
+        android:layout_width="65dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/mobilefa"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="12sp"
+        android:typeface="serif"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/mobilef"
+        app:layout_constraintTop_toBottomOf="@+id/emailf1" />
+
+    <TextView
+        android:id="@+id/datef1"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/datefa"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="12sp"
+        android:typeface="serif"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagef" />
+
+    <TextView
+        android:id="@+id/timef1"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="108dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/timefa"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="12sp"
+        android:typeface="serif"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@id/timef"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cdatef1" />
+
+    <TextView
+        android:id="@+id/datef"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center|start"
+        android:text="@string/datef"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toEndOf="@+id/datef1"
+        app:layout_constraintTop_toBottomOf="@+id/mobilef" />
+
+    <TextView
+        android:id="@+id/timef"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="108dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center|start"
+        android:text="@string/timef"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cdatef" />
+
+    <TextView
+        android:id="@+id/addressf1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/addressfa"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timef1" />
+
+    <TextView
+        android:id="@+id/addressf"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="start"
+        android:text="@string/addressf"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addressf1" />
+
+    <TextView
+        android:id="@+id/statef"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center|start"
+        android:text="@string/statef"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/countryf"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addressf" />
+
+    <TextView
+        android:id="@+id/countryf"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="308dp"
+        android:gravity="center|start"
+        android:text="@string/countryf"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addressf" />
+
+    <TextView
+        android:id="@+id/descf"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center|start"
+        android:text="@string/descf"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descf1" />
+
+    <TextView
+        android:id="@+id/descf1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/descfa"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryf" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/newbutton"
+        android:gravity="center"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descf"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <ImageView
+        android:id="@+id/status"
+        android:layout_width="415dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/namef1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/statusnew" />
+
+    <TextView
+        android:id="@+id/cdatef1"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/cdatefa"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datef1" />
+
+    <TextView
+        android:id="@+id/cdatef"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="72dp"
+        android:gravity="center|start"
+        android:text="@string/cdatef"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toEndOf="@+id/cdatef1"
+        app:layout_constraintTop_toBottomOf="@+id/datef" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

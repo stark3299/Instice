@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/log_in1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:contentDescription="@string/content" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/loginid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:errorEnabled="true"
+            app:hintAnimationEnabled="true"
+            app:startIconDrawable="@drawable/name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/loginid1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email ID " />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:errorEnabled="true"
+            app:hintAnimationEnabled="true"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:text="Remember me"
+                android:textColor="#050505" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/forgot"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:paddingTop="5dp"
+                android:text="Forgot Password?"
+                android:textColor="#050505"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/mybtnselect"
+            android:text="Login" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

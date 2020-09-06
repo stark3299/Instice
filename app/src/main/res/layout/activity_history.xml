@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/history1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imgView1"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="@string/content" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/sh_name1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="1dp"
+            android:hint="@string/namef"
+            android:gravity="center_vertical"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/sh_email2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="2dp"
+            android:hint="@string/emailf"
+            android:gravity="center_vertical"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/statusH"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center|end"
+            android:textColor="#000000"
+            android:text="@string/status_h" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

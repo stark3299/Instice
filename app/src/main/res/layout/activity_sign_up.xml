@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/sign_in1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:contentDescription="@string/content" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/userid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:errorEnabled="true"
+            app:hintAnimationEnabled="true"
+            app:startIconDrawable="@drawable/name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userid1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Id" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:errorEnabled="true"
+            app:hintAnimationEnabled="true"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:errorEnabled="true"
+            app:hintAnimationEnabled="true"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="I accept the terms and condition" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/mybtnselect"
+            android:text="SignUp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

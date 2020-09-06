@@ -1,0 +1,227 @@
+<resources>
+    <string-array name="title">
+        <item>Add Report</item>
+        <item>Your Report</item>
+        <item>Setting</item>
+        <item>Exit</item>
+
+    </string-array>
+
+    <string name="checkedcase">b</string>
+    <string name="totalcase">a</string>
+    <string name="status_h">Status : Pending </string>
+    <string name="status_h1">Status : Solved </string>
+    <string name="confirm">We sent a reset email to : </string>
+    <string name="app_name">Instice1</string>
+    <string name="title_activity_dashboard1">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="profile">Profile </string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Your Name</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_name">YOUR NAME</string>
+    <string name="action_settings">Exit</string>
+    <string name="no_history">Not Found any Report</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">New Report</string>
+    <string name="menu_slideshow">Your Report</string>
+    <string name="menu_tools">Settings</string>
+    <string name="menu_share">About Us</string>
+    <string name="menu_send">Privacy Policy</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_activity_dash_board">DashBoard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">All Reports</string>
+    <string name="message">Your case status is updated as solved and status is updated by the department.</string>
+    <string name="message1">Your case status is updated as unsolved and status is updated by the department.</string>
+    <string name="supporting_text"> Are you want to update the status of the case?</string>
+    <string name="dialog_title">Case Solved ?</string>
+    <string name="dialog_title1">Case UnSolved ?</string>
+    <string name="status">Yes</string>
+    <string name="status1">No</string>
+    <string name="title_report">Completed Reports</string>
+    <string name="all_reports">Total Reports</string>
+    <string name="title_add">Add Report</string>
+    <string name="title_add1">Add Report</string>
+    <string name="your_report">Report History</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="title_uncompleted">Pending Reports</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_logout">Logout</string>
+    <string name="title_chngpass">Change Password</string>
+    <string name="title_refresh">Refresh</string>
+    <string name="namef">Name</string>
+    <string name="emailf">Email</string>
+    <string name="mobilef">Mobile no</string>
+    <string name="reset">Change Password</string>
+    <string name="addressf">Address</string>
+    <string name="statef">State</string>
+    <string name="countryf">Country</string>
+    <string name="descf">Description</string>
+    <string name="datef">Date</string>
+    <string name="cdatef">Report Date</string>
+    <string name="timef">Time</string>
+    <string name="namefa">NAME</string>
+    <string name="emailfa">EMAIL</string>
+    <string name="mobilefa">MOBILE NO : </string>
+    <string name="addressfa">ADDRESS :</string>
+    <string name="descfa">DESCRIPTION :</string>
+    <string name="cdatefa">INCIDENT DATE :</string>
+    <string name="datefa">CURRENT DATE :</string>
+    <string name="timefa">INCIDENT TIME :</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="content">Profile Picture</string>
+    <string name="done">Save</string>
+    <string name="edit">Edit</string>
+    <string name="upload">Upload Photo</string>
+    <string name="name_pro">Enter Your Name</string>
+    <string name="email_pro">Email Id</string>
+    <string name="terms1">Instice Terms and Conditions </string>
+    <string name="body">By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app.
+        You’re not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also
+        shouldn’t try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property
+        rights related to it, still belong to Government.
+        Government is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services,
+        at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.
+    </string>
+    <string name="body1">The Instice app stores and processes personal data that you have provided to us, in order to provide our Service.
+        It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone,
+        which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your
+        phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the Instice app won’t work properly or at all.
+        The app does use third party services that declare their own Terms and Conditions.
+        Link to Terms and Conditions of third party service providers used by the app
+    </string>
+    <string name="body2"> •    Google Play Services</string>
+    <string name="body3">You should be aware that there are certain things that Government will not take responsibility for.
+        Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi,
+        or provided by your mobile network provider, but Government cannot take responsibility for the app not working at full
+        functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.
+    </string>
+    <string name="body4">If you’re using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement
+        with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data
+        for the duration of the connection while accessing the app, or other third party charges. In using the app, you’re accepting responsibility
+        for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning
+        off data roaming. If you are not the bill payer for the device on which you’re using the app, please be aware that we assume that you have received
+        permission from the bill payer for using the app.
+    </string>
+    <string name="body5">Along the same lines, Government cannot always take responsibility for the way you use the app i.e.
+        You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service,
+        Government cannot accept responsibility.
+    </string>
+    <string name="body6">With respect to Government’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind
+        that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that
+        we can make it available to you. Government accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this
+        functionality of the app.
+    </string>
+    <string name="body7">At some point, we may wish to update the app. The app is currently available on Android –
+        the requirements for system (and for any additional systems we decide to extend the availability of the app to) may change,
+        and you’ll need to download the updates if you want to keep using the app. Government does not promise that it will always update the app so
+        that it is relevant to you and/or works with the Android version that you have installed on your device. However, you promise to always accept
+        updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving
+        notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end;
+        (b) you must stop using the app, and (if needed) delete it from your device.
+    </string>
+    <string name="terms2">Changes to This Terms and Conditions</string>
+    <string name="body8">We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes.
+        We will notify you of any changes by posting the new Terms and Conditions on this page.
+         These terms and conditions are effective as of 2020-05-20.
+    </string>
+    <string name="terms3">Contact Us</string>
+    <string name="body9">If you have any questions or suggestions about our Terms and Conditions,
+        do not hesitate to contact us at s.ranjanbit@gmail.com.
+    </string>
+    <string name="privacy1">Instice Privacy Policy</string>
+    <string name="body11">Government built the Instice app as a Commercial app. This service is provided by Government and is intended for use as is.
+          This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided
+        to use our Service.If you choose to use our Service, then you agree to the collection and use of information in relation to this policy.
+        The Personal Information that we collect is used for providing and improving the Service. we will not use or share your information with anyone
+        except as described in this Privacy Policy.
+    </string>
+    <string name="body12">The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Instice unless
+        otherwise defined in this Privacy Policy.
+    </string>
+    <string name="privacy2">Information Collection and Use</string>
+    <string name="body13">For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information.
+        The information that we request will be retained by us and used as described in this privacy policy.The app does use third party services that may
+        collect information used to identify you.Link to privacy policy of third party service providers used by the app
+    </string>
+    <string name="body14"> •    Google Play Service</string>
+    <string name="privacy3">Log Data</string>
+    <string name="body15">We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information
+        (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address,
+        device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other
+        statistics.
+    </string>
+    <string name="privacy4">Cookies</string>
+    <string name="body16">Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser
+        from the websites that you visit and are stored on your devices internal memory.
+    </string>
+    <string name="body17">This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect
+        information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device.
+        If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+    </string>
+    <string name="privacy5">Service Providers</string>
+    <string name="body18">We may employ third-party companies and individuals due to the following reasons:</string>
+    <string name="body19"> •  To facilitate our Service.</string>
+    <string name="body20"> •  To provide the Service on our behalf.</string>
+    <string name="body21"> •  To perform Service-related services.</string>
+    <string name="body22"> •  To assist us in analyzing how our Service is used.</string>
+    <string name="body23">We want to inform users of this Service that these third parties have access to your Personal Information.
+        The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information
+        for any other purpose.
+    </string>
+    <string name="privacy6">Security</string>
+    <string name="body24">We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it.
+        But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute
+        security.
+    </string>
+    <string name="privacy7">Links to Other Sites</string>
+    <string name="body25">We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it.
+        But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its
+        absolute security.
+    </string>
+    <string name="privacy8">Children’s Privacy</string>
+    <string name="body26">These Services do not address anyone under the age of 13. we do not knowingly collect personally identifiable information from children
+        under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers.
+        If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to
+        do necessary actions.
+    </string>
+    <string name="privacy9">Changes to This Privacy Policy</string>
+    <string name="body27">We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes.
+        We will notify you of any changes by posting the new Privacy Policy on this page.This policy is effective as of 2020-05-20.
+    </string>
+    <string name="privacy10">Contact Us</string>
+    <string name="body28">If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at s.ranjanbit@gmail.com.</string>
+    <string name="body29">Welcome to Team Instice, your number one source which helps you to report your case from anywhere in India. We are dedicated
+        to giving you the very fast of registering your case, with a focus on easy, fast, and extremely helpful for customer support.</string>
+    <string name="body30">Founded in 2020 by Sumit Ranjan , Team Instice has come a long way from its beginnings in New Delhi. When Sumit  first started out,
+        his passion for a product which can control on the crime activities and helps to solve it as soon as possible drove them to do some research about the
+        main problem about these issue, so that Instice can offer you the opportunity to send any crime reports to our officers as soon as possible from any
+        parts of our country in a few easy procedure. We now serve customers all over India, and are thrilled that we are able to turn our passion into our own website.</string>
+    <string name="body31">We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please do not hesitate to contact us.</string>
+    <string name="body32">Sincerely</string>
+    <string name="body33">Sumit Ranjan</string>
+    <string name="body34">s.ranjanbit@gmail.com</string>
+    <string name="about_title">Welcome to Instice About Us Page</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Account</string>
+    <string name="about">About us</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your Profile</string>
+    <string name="signature_subtitle">Edit your profile details</string>
+    <string name="change_pass">Change Password</string>
+    <string name="change_subpass">Change your profile password</string>
+    <string name="logout">Logout</string>
+    <string name="logout_sub">Logout from this device</string>
+    <string name="delete">Delete Account</string>
+
+    <!-- Sync Preferences -->
+    <string name="terms">Terms and Conditions</string>
+    <string name="terms_sub">Read our terms of use </string>
+    <string name="version">Version</string>
+    <string name="version_sub">Initial Version - 1.0</string>
+
+</resources>

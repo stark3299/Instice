@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/chngpass"
+        android:orderInCategory="100"
+        android:title="@string/title_chngpass"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="@string/title_refresh"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="@string/title_logout"
+        app:showAsAction="never" />
+
+</menu>

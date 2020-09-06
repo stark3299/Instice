@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".Common" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/final1"
+            android:contentDescription="@string/content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sign Up"
+            android:textColor="#0A0A0A"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:contentDescription="@string/content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="it's easier to sign up now"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:contentDescription="@string/content" />
+
+            <LinearLayout
+                android:id="@+id/google1"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/newstyle">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/content" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/google1"
+                    android:contentDescription="@string/content" />
+
+                <TextView
+                    android:id="@+id/google2"
+                    android:layout_width="155dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:text="Sign up with google"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:weightSum="10" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:contentDescription="@string/content" />
+
+        <Button
+            android:id="@+id/phone"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/newstyle"
+            android:gravity="center"
+            android:text="I'll use email id"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:contentDescription="@string/content" />
+
+        <TextView
+            android:id="@+id/login1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Already have account?Login"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:contentDescription="@string/content" />
+
+        <TextView
+            android:id="@+id/admin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Login As an Admin?"
+            android:textColor="#314091" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
